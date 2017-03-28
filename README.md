@@ -51,11 +51,11 @@ merge(firstHalf, secondHalf)
 
 Let's call these beginning arrays, `costOfItemsAtTraderJoes` and `costOfItemsAtWholeFoods` our subarrays, as the will make up our resulting array.  Ok, so given these two subarrays to begin with, how would you get to the final sorted array.  Take a minute and try to think about how you would sort ordered lists of items from two different stores.  You'll know you are thinking properly if your face looks something like this.
 
-![](http://www.funnycatsite.com/pictures/hmmmm.jpg)
+![](	https://s3-us-west-2.amazonaws.com/curriculum-content/web-development/algorithms/hmmmm.jpg)
 
 Ok, well in thinking of how to merge the two arrays what we could go from the following insight.  The minimum of each subarray has to be at the zero index.  So the minimum of firstHalf is firstHalf[0] and the minimum of secondHalf is secondHalf[0].  Now what is the minimum of the two halves?  Again, give it a shot.
 
-![](https://www.funnypica.com/wp-content/uploads/2015/06/Funny-Pictures-of-Animals-Thinking-8-570x499.jpg)
+![](https://s3-us-west-2.amazonaws.com/curriculum-content/web-development/algorithms/monkey-thinking.jpg)
 
 Well its whichever of these two minimums is smaller.  So, given two sorted arrays, let's find the minimum.  
 
