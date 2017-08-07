@@ -2,7 +2,7 @@
 
 ### Background
 
-In insertion sort, we saw one approaching for sorting elements.  Now, in this lesson we'll talk again tackle the sorting problem, but in a specific circumstance: we will start with two *ordered arrays* and will need to combine them into one ordered array.  
+In insertion sort, we saw one approach for sorting elements.  Now, in this lesson we'll again tackle the sorting problem, but in a specific circumstance: we will start with two *ordered arrays* and will need to combine them into one ordered array.  
 
 ### Our Problem
 Assume that we are given two ordered arrays.  For example, take a look at the arrays below. 
@@ -30,7 +30,7 @@ Note that we can't simply tack one array at the end of the other, nor can we alt
 	// [1, 2, 6, 7, 8, 3, 4, 5, 9, 10]
   
   
-  // attempting at alternating
+  // attempt at alternating
   let costOfItemsAtTraderJoes =  [1, 2, 6, 7, 8]
     let costOfItemsAtWholeFoods =  [3, 4, 5, 9, 10]
   let notCombinedByAlternating = [1, 3, 2, 4, 6, 5, 7, 9, 8, 10]
@@ -159,3 +159,4 @@ So we can say that the big o of our merge function is the length of our two suba
 ### Summary
 
 Merging two sorted arrays into one combined sorted array involves looking at the first element of each array, comparing the two and then placing the smaller element into a new array.  Because we remove an element from a subarray with each comparison, the big o of merging is the combined length of our subarrays.  
+<p class='util--hide'>View <a href='https://learn.co/lessons/merging'>Merging</a> on Learn.co and start learning to code for free.</p>
