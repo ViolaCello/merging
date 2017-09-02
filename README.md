@@ -111,7 +111,6 @@ Now, just like with selection sort, to arrive at our sorted array, we just have 
 
   function merge(firstHalf, secondHalf){
     let sorted = []
-    let currentMin;
     while(firstHalf.length != 0 && secondHalf.length != 0){
       let currentMin = findMinAndRemove(firstHalf, secondHalf)
       sorted.push(currentMin)
