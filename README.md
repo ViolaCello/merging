@@ -53,7 +53,7 @@ Let's call these beginning arrays, `costOfItemsAtTraderJoes` and `costOfItemsAtW
 
 ![](	https://s3-us-west-2.amazonaws.com/curriculum-content/web-development/algorithms/hmmmm.jpg)
 
-Ok, well in thinking of how to merge the two arrays what we could go from the following insight.  The minimum of each subarray has to be at the zero index.  So the minimum of firstHalf is firstHalf[0] and the minimum of secondHalf is secondHalf[0].  Now what is the minimum of the two halves?  Again, give it a shot.
+Ok, well in thinking of how to merge the two arrays where could we go from the following insight.  The minimum of each subarray has to be at the zero index.  So the minimum of firstHalf is firstHalf[0] and the minimum of secondHalf is secondHalf[0].  Now what is the minimum of the two halves?  Again, give it a shot.
 
 ![](https://s3-us-west-2.amazonaws.com/curriculum-content/web-development/algorithms/monkey-thinking.jpg)
 
